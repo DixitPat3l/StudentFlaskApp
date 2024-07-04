@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_restful import Api
 from datetime import datetime
 import logging
+import os
 
 app = Flask(__name__)
 api = Api(app)
